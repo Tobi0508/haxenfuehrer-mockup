@@ -22,9 +22,9 @@ body {
   border-radius: 1rem;
 }
 .hero-icon {
-  width: 120px;
+  width: 140px;
   height: auto;
-  margin-bottom: 8px; /* vorher 20px */
+  margin-bottom: 10px; /* vorher 20px */
   filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.3));
 }
 
