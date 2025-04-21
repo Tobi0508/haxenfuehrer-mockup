@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Haxenführer.de – Vorschau</title>
+  <title>Haxenführer.de</title>
   <style>
     body {
       margin: 0;
@@ -24,10 +24,27 @@
       text-align: center;
     }
     .hero .overlay {
-      background-color: rgba(0, 0, 0, 0.6);
-      padding: 3rem;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 2rem 3rem;
       border-radius: 1rem;
       color: white;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+    .hero p {
+      font-size: 1.2rem;
+      margin: 0.5rem 0;
+    }
+    .hero .button {
+      margin-top: 1.5rem;
+      background-color: #d3642b;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border-radius: 5px;
+      text-decoration: none;
+      display: inline-block;
     }
     section {
       padding: 4rem 2rem;
@@ -38,14 +55,19 @@
       text-align: center;
       margin-bottom: 2rem;
     }
-    .highlight-list {
-      list-style: none;
-      padding: 0;
-      text-align: center;
+    .highlight-row {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      margin-bottom: 3rem;
     }
-    .highlight-list li {
-      margin: 0.5rem 0;
-      font-size: 1.2rem;
+    .highlight {
+      text-align: center;
+      margin: 1rem;
+    }
+    .highlight img {
+      width: 40px;
+      height: 40px;
     }
     .review-grid {
       display: flex;
@@ -60,6 +82,14 @@
       box-shadow: 0 2px 8px rgba(0,0,0,0.1);
       width: 300px;
     }
+    .review-card img {
+      width: 100%;
+      border-radius: 10px;
+      margin-bottom: 1rem;
+    }
+    .review-card h3 {
+      margin-top: 0;
+    }
     footer {
       text-align: center;
       padding: 2rem;
@@ -73,39 +103,45 @@
     <div class="overlay">
       <h1>HAXENFÜHRER.DE</h1>
       <p>Wo die Schwarte kracht – und wir den Knusperfaktor messen.</p>
+      <a href="#reviews" class="button">Bewertungen anzeigen</a>
     </div>
   </div>
 
   <section>
     <h2>Über den Haxenführer</h2>
     <p style="text-align:center;">
-      Wir zelebrieren die hohe Kunst der Schweinshaxe – mit einem Augenzwinkern und einem kritischen Blick auf Knuspergrad, Soßenspiegel und Beilagenakrobatik.
+      Haxenführend stellt die sertige Ingericht – um wir den Schwarte erklärtlin Stecken<br>
+      an Schweinshax zenviewiegt wenis um Knusperfaktor und delikfose Saucen ein blusses Humor.
     </p>
   </section>
 
   <section>
     <h2>Bewertungshighlights</h2>
-    <ul class="highlight-list">
-      <li>🐷 Knusprigkeit: Wir vergeben keine Gnade.</li>
-      <li>🍺 Biersituation: Vom Fass oder verloren.</li>
-      <li>🍖 Beilagenkunst: Kraut? Knödel? Symmetrie zählt.</li>
-    </ul>
+    <div class="highlight-row">
+      <div class="highlight"><img src="https://cdn-icons-png.flaticon.com/512/616/616408.png" alt="Schwein"><div>Knusperlevel</div></div>
+      <div class="highlight"><img src="https://cdn-icons-png.flaticon.com/512/287/287221.png" alt="Soße"><div>Soßenspiegel</div></div>
+      <div class="highlight"><img src="https://cdn-icons-png.flaticon.com/512/869/869636.png" alt="Beilage"><div>Beilagenkunst</div></div>
+      <div class="highlight"><img src="https://cdn-icons-png.flaticon.com/512/1046/1046784.png" alt="Bier"><div>Biersituation</div></div>
+    </div>
   </section>
 
-  <section>
+  <section id="reviews">
     <h2>Aktuelle Reviews</h2>
     <div class="review-grid">
       <div class="review-card">
+        <img src="https://cdn.pixabay.com/photo/2016/03/05/19/02/pork-knuckle-1238615_960_720.jpg" alt="Knusprige Haxe">
         <h3>Zum Goldenen Knorpel</h3>
-        <p>Knusprigkeit: 5/5 – Soße: tränenrührend – Biersituation: stabil.</p>
+        <p>Knusprigkeit: ⭐⭐⭐⭐⭐<br>Soßenspiegel: tränenrührend<br>Biersituation: stabil<br><em>Knorpelig wie Omas Ellbogen – aber gold.</em></p>
       </div>
       <div class="review-card">
+        <img src="https://cdn.pixabay.com/photo/2020/02/07/20/45/schweinshaxe-4829166_960_720.jpg" alt="Haxe & Herz">
         <h3>Haxe & Herz</h3>
-        <p>Würze wie bei Oma, aber mit Hipsterbier. Achtung: Soße süßlich!</p>
+        <p>Beilagenkunst: ❤️❤️❤️❤️<br>Soßenspiegel: +gött<br><em>Würze wie bei Oma, aber mit Hipsterbier.</em></p>
       </div>
       <div class="review-card">
+        <img src="https://cdn.pixabay.com/photo/2020/12/15/20/29/pork-knuckle-5833261_960_720.jpg" alt="Schweinsgalopp">
         <h3>Der Schweinsgalopp</h3>
-        <p>Beilagen wie vom Papst gesegnet. Haxe selbst: brutal gut.</p>
+        <p>Knusprigkeit: 💥💥💥💥<br>Soßenspiegel: Cyzenschept<br><em>Soße göttier, tim Sauschlag ist schiff vii.</em></p>
       </div>
     </div>
   </section>
