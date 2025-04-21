@@ -17,18 +17,25 @@ body {
 }
 
 .hero-overlay {
-  background-color: rgba(0,0,0,0.5);
-  padding: 2rem;
-  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  gap: 0; /* NEU: verhindert zusätzlichen Abstand */
 }
+
+.hero-overlay h1 {
+  margin-top: 0;
+  margin-bottom: 8px; /* Falls du etwas Abstand brauchst, sonst 0 */
+}
+
 .hero-icon {
-  width: 140px;
+  width: 120px;
   height: auto;
-  margin-bottom: 10px; /* vorher 20px */
+  margin-bottom: 4px; /* Reduziert den Abstand */
   filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.3));
 }
-
-
 
 .button {
   background-color: #d46827;
