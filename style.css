@@ -1,7 +1,7 @@
 
 body {
   margin: 0;
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Bebas Neue', sans-serif;
   background: #fffaf3;
   color: #2e2a26;
     font-size: 16px;
@@ -9,7 +9,7 @@ body {
 }
 
 h1, h2, h3, .button, .review-card h3 {
-  font-family: 'Outfit', sans-serif;
+  font-family: 'Bebas Neue', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
 }
