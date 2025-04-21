@@ -1,184 +1,87 @@
 
-/* Basis-Layout */
 body {
-    margin: 0;
-    font-family: 'Segoe UI', sans-serif;
-    background-color: #fffaf3;
-    color: #2e2a26;
-    line-height: 1.6;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #fffaf3;
+  color: #2e2a26;
 }
-
-/* Container */
-.container {
-    width: 90%;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-/* Hero Section */
 .hero {
-    position: relative;
-    text-align: center;
-    padding: 4rem 1rem 2rem;
-    background-color: #5a5148;
-    color: white;
+  background: url('images/haxe-hero.jpg') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  position: relative;
 }
-
-.hero img {
-    max-width: 80px;
-    margin-bottom: 1rem;
+.hero-overlay {
+  background-color: rgba(0,0,0,0.5);
+  padding: 2rem;
+  border-radius: 1rem;
 }
-
-.hero h1 {
-    font-size: 2.5rem;
-    letter-spacing: 2px;
-    margin: 0.5rem 0;
+.hero-icon {
+  width: 64px;
+  margin-bottom: 1rem;
 }
-
-.hero p {
-    margin: 0.5rem 0 1.5rem;
+.button {
+  background-color: #d46827;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
 }
-
-.hero .button {
-    display: inline-block;
-    padding: 0.6rem 1.2rem;
-    background-color: #e85d04;
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 4px;
-}
-
-/* Über den Haxenführer */
 .about {
-    display: flex;
-    align-items: center;
-    gap: 2rem;
-    padding: 4rem 0;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 2rem;
+  padding: 4rem 2rem;
 }
-
 .about img {
-    max-width: 200px;
-    border-radius: 50%;
+  width: 200px;
+  border-radius: 50%;
 }
-
-.about-text {
-    max-width: 600px;
-}
-
-/* Bewertungshighlights */
 .highlights {
-    text-align: center;
-    background-color: #fdfaf5;
-    padding: 3rem 1rem;
+  text-align: center;
+  padding: 3rem 1rem;
 }
-
-.highlights h2 {
-    font-size: 1.8rem;
-    margin-bottom: 2rem;
-}
-
 .highlight-icons {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
 }
-
 .highlight {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 140px;
+  width: 120px;
 }
-
 .highlight img {
-    width: 64px;
-    height: auto;
-    margin-bottom: 0.5rem;
+  width: 64px;
 }
-
-.highlight .title {
-    font-weight: bold;
-    margin-bottom: 0.2rem;
-}
-
-.highlight .desc {
-    font-size: 0.85rem;
-}
-
-/* Review Section */
 .reviews {
-    padding: 4rem 0;
-    text-align: center;
+  padding: 4rem 1rem;
+  text-align: center;
 }
-
-.reviews h2 {
-    font-size: 1.8rem;
-    margin-bottom: 2rem;
-}
-
 .review-cards {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-
 .review-card {
-    background-color: white;
-    border-radius: 10px;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
-    overflow: hidden;
-    width: 280px;
-    text-align: left;
+  width: 300px;
+  background: white;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+  border-radius: 10px;
+  overflow: hidden;
 }
-
 .review-card img {
-    width: 100%;
-    height: auto;
-    display: block;
+  width: 100%;
 }
-
-.review-card .content {
-    padding: 1rem;
-}
-
-.review-card .title {
-    font-weight: bold;
-    font-size: 1.1rem;
-    margin-bottom: 0.5rem;
-}
-
-.review-card .faktor {
-    font-size: 0.9rem;
-    color: #444;
-    margin-bottom: 0.3rem;
-}
-
-/* Footer */
 footer {
-    text-align: center;
-    padding: 2rem 1rem;
-    font-size: 0.8rem;
-    color: #888;
-}
-
-/* Responsive */
-@media (max-width: 768px) {
-    .about {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .highlight-icons {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .review-cards {
-        flex-direction: column;
-        align-items: center;
-    }
+  text-align: center;
+  padding: 2rem 1rem;
+  font-size: 0.9rem;
+  color: #777;
 }
