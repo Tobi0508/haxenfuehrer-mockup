@@ -22,10 +22,10 @@ body {
   border-radius: 1rem;
 }
 .hero-icon {
-  width: 60px;
-  height: auto;
-  margin-bottom: 20px;
+  width: 120px;
+  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.3));
 }
+
 
 .button {
   background-color: #d46827;
