@@ -40,18 +40,20 @@ h1 {
 }
 
 .hero-overlay h1 {
-  font-size: 3.5rem;
-  line-height: 1.2;
+  font-size: 4rem;           /* vorher vermutlich 2–3rem */
   font-weight: 800;
+  margin: 0.5rem 0;
   text-transform: uppercase;
-  margin-bottom: 0.5rem;
+  letter-spacing: 0.05em;
+  font-family: 'Outfit', sans-serif;
 }
+
 .hero-overlay h2 {
   font-size: 1.8rem;
   font-weight: 700;
-  text-transform: uppercase;
-  margin-bottom: 1rem;
+  margin: 0.3rem 0;
 }
+
 .hero-overlay p {
   font-size: 1.05rem;
   font-weight: 400;
