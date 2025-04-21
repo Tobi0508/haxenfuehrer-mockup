@@ -59,6 +59,26 @@ h1 {
   margin: 0.5rem 0 1.5rem 0;
   font-weight: 400;
 }
+.hero-overlay .button {
+  background-color: transparent;
+  color: white;
+  text-transform: uppercase;
+  padding: 0.75rem 1.5rem;
+  border: 2px solid white;
+  border-radius: 6px;
+  text-decoration: none;
+  font-weight: 600;
+  font-family: 'Outfit', sans-serif;
+  font-size: 0.875rem;
+  display: inline-block;
+  margin-top: 1.5rem;
+  transition: all 0.3s ease;
+}
+
+.hero-overlay .button:hover {
+  background-color: white;
+  color: #2e2a26; /* oder #E46927, wenn du den Akzent betonen willst */
+}
 
 
 
