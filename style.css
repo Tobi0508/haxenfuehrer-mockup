@@ -40,42 +40,39 @@ h1 {
 }
 
 .hero-overlay h1 {
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: 6rem;
-  letter-spacing: 0.05em;
-  margin: 0.5rem 0;
-  line-height: 1.1;
+  font-size: 7rem;            /* höher als vorher */
+  letter-spacing: 0.02em;     /* enger, eleganter */
+  line-height: 1.0;
+  margin: 1rem 0 0.5rem 0;
 }
 
-
 .hero-overlay h2 {
-  font-size: 2.2rem;
+  font-size: 2.5rem;          /* größer für Präsenz */
   font-weight: 700;
-  margin: 0.5rem 0;
+  margin: 0.5rem 0 1rem 0;
 }
 
 .hero-overlay p {
-  font-size: 1.1rem;
-  margin: 0.5rem 0 1.5rem 0;
+  font-size: 1.25rem;         /* besser lesbar */
+  line-height: 1.6;
+  max-width: 600px;
+  margin: 0.5rem auto 1.5rem auto;
   font-weight: 400;
 }
+
 .hero-overlay .button {
+  font-size: 1rem;
+  font-weight: 700;
+  padding: 0.75rem 1.75rem;
+  border: 2px solid white;
+  border-radius: 6px;
   background-color: transparent;
   color: white;
   text-transform: uppercase;
-  padding: 0.75rem 1.5rem;
-  border: 2px solid white;
-  border-radius: 6px;
   text-decoration: none;
-  font-weight: 500;
   font-family: 'Outfit', sans-serif;
-  font-size: 1rem;
-  display: inline-block;
-  margin-top: 1.5rem;
-  text-align: center;
-  cursor: pointer;
-  transition: all 0.3s ease;
 }
+
 
 .hero-overlay .button:hover {
   background-color: rgba(255, 255, 255, 0.1); /* leichtes weißes Overlay */
