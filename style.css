@@ -47,9 +47,9 @@ h1 {
 
 /* Schwein-Icon über dem Haupttitel */
 .hero-icon {
-  width: 230px;
+  width: 200px;
   height: auto;
-  margin-bottom: 0.6rem;
+  margin-bottom: 1rem;
   filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.3)); /* dezenter Schatten für bessere Lesbarkeit */
 }
 
