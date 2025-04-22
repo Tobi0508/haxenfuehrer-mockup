@@ -11,7 +11,7 @@ body {
 
 /* === Einheitliche Schriftart für Überschriften und wichtige UI-Elemente === */
 h1, h2, h3, .button, .review-card h3 {
-  font-family: 'Bebas Neue', sans-serif;
+  font-family: 'League Spartan', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
 }
@@ -55,11 +55,13 @@ h1 {
 
 /* Haupttitel im Hero-Bereich */
 .hero-overlay h1 {
-  font-size: 7.6rem;
-  letter-spacing: -0.015em;
+  font-size: 8rem;                  /* Groß und plakativ */
+  letter-spacing: 0.09em;           /* Erhöhter Zeichenabstand für Leichtigkeit */
+  font-weight: 500;                 /* Weniger fett als vorher */
   line-height: 1.0;
-  margin: 0.3rem 0;
+  margin: 0.5rem 0 0.25rem 0;
 }
+
 
 /* Untertitel direkt unter h1 */
 .hero-overlay h2 {
