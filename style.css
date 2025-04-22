@@ -11,7 +11,7 @@ body {
 
 /* === Einheitliche Schriftart für Überschriften und wichtige UI-Elemente === */
 h1, h2, h3, .button, .review-card h3 {
-  font-family: 'League Spartan', sans-serif;
+  font-family: 'Barlow Condensed', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
 }
