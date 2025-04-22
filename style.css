@@ -57,7 +57,7 @@ h1 {
 .hero-overlay h1 {
   font-size: 8rem;                  /* Groß und plakativ */
   letter-spacing: 0.04em;           /* Erhöhter Zeichenabstand für Leichtigkeit */
-  font-weight: 600;                 /* Weniger fett als vorher */
+  font-weight: 500;                 /* Weniger fett als vorher */
   line-height: 1.1;
   margin: 0.3rem 0 0.25rem 0;
 }
