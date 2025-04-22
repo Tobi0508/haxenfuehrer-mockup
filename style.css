@@ -1,24 +1,28 @@
 
+/* === Basislayout und Standardschrift === */
 body {
   margin: 0;
-  font-family: 'Outfit', sans-serif;
-  background: #fffaf3;
-  color: #2e2a26;
+  font-family: 'Outfit', sans-serif; /* Standard-Textschriftart */
+  background: #fffaf3;               /* Helles, leicht rustikales Hintergrundbeige */
+  color: #2e2a26;                    /* Dunkles Braun für Text */
   font-size: 16px;
   line-height: 1.6;
 }
 
+/* === Einheitliche Schriftart für Überschriften und wichtige UI-Elemente === */
 h1, h2, h3, .button, .review-card h3 {
   font-family: 'Bebas Neue', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
 }
 
+/* === Grundstil für einzelne h1 außerhalb des Hero-Bereichs === */
 h1 {
   font-size: 2rem;
   letter-spacing: 0.05em;
 }
 
+/* === Hero-Bereich mit großem Hintergrundbild und zentrierten Inhalten === */
 .hero {
   position: relative;
   background-image: url('images/haxe-hero.jpg');
@@ -30,6 +34,7 @@ h1 {
   color: white;
 }
 
+/* Wrapper für alle Inhalte im Hero-Bereich */
 .hero-overlay {
   display: flex;
   flex-direction: column;
@@ -40,13 +45,15 @@ h1 {
   margin: 0 auto;
 }
 
+/* Schwein-Icon über dem Haupttitel */
 .hero-icon {
   width: 140px;
   height: auto;
   margin-bottom: 0.4rem;
-  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.3));
+  filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.3)); /* dezenter Schatten für bessere Lesbarkeit */
 }
 
+/* Haupttitel im Hero-Bereich */
 .hero-overlay h1 {
   font-size: 7.6rem;
   letter-spacing: -0.015em;
@@ -54,20 +61,23 @@ h1 {
   margin: 0.3rem 0;
 }
 
+/* Untertitel direkt unter h1 */
 .hero-overlay h2 {
   font-size: 3rem;
   margin: 0.2rem 0;
 }
 
+/* Fließtext unter dem Untertitel */
 .hero-overlay p {
   font-size: 1.25rem;
   line-height: 1.7;
   margin: 0.3rem auto 1rem auto;
   max-width: 600px;
   font-weight: 400;
-  text-shadow: 0 1px 1px rgba(0,0,0,0.4);
+  text-shadow: 0 1px 1px rgba(0,0,0,0.4); /* besser lesbar auf hellem Hintergrundbild */
 }
 
+/* Button im Hero-Bereich */
 .hero-overlay .button {
   font-size: 1rem;
   font-weight: 700;
@@ -85,11 +95,13 @@ h1 {
   transition: background-color 0.3s ease;
 }
 
+/* Hover-Effekt für Button */
 .hero-overlay .button:hover {
   background-color: white;
   color: #2e2a26;
 }
 
+/* === Bereich „Über den Haxenführer“ === */
 .about {
   display: flex;
   flex-wrap: wrap;
@@ -103,6 +115,7 @@ h1 {
   border-radius: 50%;
 }
 
+/* === Bewertungs-Highlights === */
 .highlights {
   text-align: center;
   padding: 3rem 1rem;
@@ -123,6 +136,7 @@ h1 {
   width: 64px;
 }
 
+/* === Reviewkarten-Bereich === */
 .reviews {
   padding: 4rem 1rem;
   text-align: center;
@@ -147,6 +161,7 @@ h1 {
   width: 100%;
 }
 
+/* === Footer-Bereich === */
 footer {
   text-align: center;
   padding: 2rem 1rem;
