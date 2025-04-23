@@ -169,6 +169,14 @@ h1 {
   text-align: center;
   padding: 3rem 1rem;
 }
+.highlights-subline {
+  font-size: 1.125rem;
+  font-family: 'Outfit', sans-serif;
+  color: #555;
+  margin: -1.5rem auto 2rem auto;
+  max-width: 600px;
+  line-height: 1.4;
+}
 
 .highlight-icons {
   display: flex;
