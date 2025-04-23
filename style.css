@@ -212,10 +212,17 @@ h1 {
 }
 
 .highlights-subline {
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-family: 'Outfit', sans-serif;
   color: #444;
   margin-bottom: 2rem;
+  margin-top: 0.5rem;
+}
+.highlights {
+  text-align: center;
+  padding: 4rem 1rem;
+  max-width: 1000px;
+  margin: 0 auto; /* zentriert alles */
 }
 
 /* === Reviewkarten-Bereich === */
