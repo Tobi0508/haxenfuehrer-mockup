@@ -99,9 +99,10 @@ h1 {
 
 /* Hover-Effekt für Button */
 .hero-overlay .button:hover {
-  background-color: rgba(255, 255, 255, 0.1);
-  color: #2e2a26;
+  background-color: rgba(255, 255, 255, 0.12); /* etwas heller */
+  color: #ffffff; /* knallweiß */
   border-color: white;
+  text-shadow: 0 0 3px rgba(0, 0, 0, 0.6); /* leichter Schlagschatten für bessere Lesbarkeit */
 }
 
 /* === Bereich „Über den Haxenführer“ === */
