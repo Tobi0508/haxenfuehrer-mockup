@@ -109,26 +109,38 @@ h1 {
 /* === Bereich „Über den Haxenführer“ === */
 .about {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
-  gap: 3rem; /* Abstand zwischen Bild und Text */
-  padding: 5rem 2rem; /* Mehr Luft oben/unten */
-  max-width: 1000px;
-  margin: 0 auto;
+  justify-content: center; /* zentriert alles horizontal */
+  gap: 2rem;
+  padding: 4rem 2rem;
 }
 
 .about img {
   width: 200px;
   height: auto;
   border-radius: 50%;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* sanfter Schatten */
   object-fit: cover;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
   display: block;
 }
 
-
-/* Textblock neben dem Bild */
 .about-text {
   max-width: 600px;
+}
+
+.about-text h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  font-family: 'Barlow Condensed', sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+
+.about-text p {
+  font-size: 1.125rem;
+  line-height: 1.6;
+  color: #2e2a26;
 }
 
 /* Headline */
