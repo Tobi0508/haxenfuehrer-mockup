@@ -118,9 +118,13 @@ h1 {
 
 .about img {
   width: 200px;
+  height: auto;
   border-radius: 50%;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15); /* sanfter Schatten */
+  object-fit: cover;
+  display: block;
 }
+
 
 /* Textblock neben dem Bild */
 .about-text {
