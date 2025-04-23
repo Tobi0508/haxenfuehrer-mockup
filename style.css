@@ -84,7 +84,7 @@ h1 {
   font-size: 1rem;
   font-weight: 700;
   padding: 0.85rem 1.75rem;
-  border: 2px solid white;
+  border: 1.5px solid white;
   border-radius: 6px;
   background-color: transparent;
   color: white;
@@ -99,8 +99,9 @@ h1 {
 
 /* Hover-Effekt für Button */
 .hero-overlay .button:hover {
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.1);
   color: #2e2a26;
+  border-color: white;
 }
 
 /* === Bereich „Über den Haxenführer“ === */
