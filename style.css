@@ -237,7 +237,13 @@ h1 {
   padding: 4rem 1rem;
   text-align: center;
 }
-
+.review-grid {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+}
 .reviews h2 {
   font-size: 2rem;
   font-family: 'Barlow Condensed', sans-serif;
@@ -253,19 +259,26 @@ h1 {
 }
 
 .review-card {
-  width: 300px;
-  background: white;
+  background-color: #fff;
   border-radius: 12px;
   overflow: hidden;
-  box-shadow: 0 6px 12px rgba(0,0,0,0.06);
-  text-align: left;
+  box-shadow: 0 6px 16px rgba(0,0,0,0.08);
+  width: 300px;
+  transition: transform 0.3s ease;
 }
-
+.review-card:hover {
+  transform: translateY(-5px);
+}
 .review-card img {
   width: 100%;
+  height: auto;
   display: block;
 }
-
+.review-card h3 {
+  margin: 16px 0 8px;
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 1.3rem;
+}
 .review-content {
   padding: 1.5rem;
 }
@@ -306,7 +319,23 @@ h1 {
   width: 18px;
   height: auto;
 }
+.rating {
+  display: flex;
+  justify-content: center;
+  margin: 8px 0;
+}
 
+.keule {
+  width: 20px;
+  height: auto;
+  margin: 0 2px;
+}
+
+.rating-label {
+  font-size: 0.9rem;
+  color: #444;
+  margin-bottom: 16px;
+}
 /* === Footer-Bereich === */
 footer {
   text-align: center;
