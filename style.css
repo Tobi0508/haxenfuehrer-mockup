@@ -238,6 +238,13 @@ h1 {
   text-align: center;
 }
 
+.reviews h2 {
+  font-size: 2rem;
+  font-family: 'Barlow Condensed', sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 2rem;
+}
+
 .review-cards {
   display: flex;
   gap: 2rem;
@@ -248,13 +255,56 @@ h1 {
 .review-card {
   width: 300px;
   background: white;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
-  border-radius: 10px;
+  border-radius: 12px;
   overflow: hidden;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.06);
+  text-align: left;
 }
 
 .review-card img {
   width: 100%;
+  display: block;
+}
+
+.review-content {
+  padding: 1.5rem;
+}
+
+.review-content h3 {
+  font-size: 1.2rem;
+  font-family: 'Bebas Neue', sans-serif;
+  margin: 0 0 0.5rem;
+}
+
+.review-content p {
+  font-size: 0.95rem;
+  font-family: 'Outfit', sans-serif;
+  color: #444;
+  margin-bottom: 1rem;
+}
+
+.review-tags {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+}
+
+.review-tags li {
+  background: #fff8ed;
+  border-radius: 6px;
+  padding: 0.4rem 0.6rem;
+  font-size: 0.85rem;
+  font-family: 'Outfit', sans-serif;
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.review-tags li img {
+  width: 18px;
+  height: auto;
 }
 
 /* === Footer-Bereich === */
