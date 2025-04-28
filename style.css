@@ -117,17 +117,13 @@ h1 {
 }
 
 .about img {
-  
-  
   max-width: 100%;
   box-shadow: 0 10px 25px rgba(50, 30, 10, 0.35); /* Stärkerer, weicher Schatten */
   display: block;
-
   width: 180px;
   height: 180px;
   object-fit: cover;
   border-radius: 50%;
-  
 }
 
 .about-text {
@@ -147,6 +143,14 @@ h1 {
   line-height: 1.6;
   margin-top: 1rem;
   color: #333; /* dunkleres Grau für bessere Lesbarkeit */
+}
+
+.section-divider {
+  margin: 2rem 0;
+  border: none;
+  height: 1px;
+  background-color: #ddd;
+  width: 100%;
 }
 
 /* Headline */
