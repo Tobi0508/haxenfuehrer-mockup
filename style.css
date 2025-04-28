@@ -305,6 +305,17 @@ h1 {
   color: #444;
   margin-bottom: 16px;
 }
+/* =====================================
+   Universelle Trennlinie / Divider
+===================================== */
+.section-divider {
+  width: 60px;                /* schmale Linie */
+  height: 3px;                /* etwas dicker für bessere Sichtbarkeit */
+  background-color: #e0d8cc;  /* helles Beige passend zum Stil */
+  margin: 3rem auto;          /* großer Abstand oben/unten und automatisch zentriert */
+  border: none;
+  border-radius: 2px;         /* leicht abgerundet */
+}
 
 /* =====================================
    Footer
