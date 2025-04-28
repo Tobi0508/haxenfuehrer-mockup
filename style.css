@@ -309,7 +309,7 @@ h1 {
    Universelle Trennlinie / Divider
 ===================================== */
 .section-divider {
-  width: 60px;                /* schmale Linie */
+  width: 260px;                /* schmale Linie */
   height: 3px;                /* etwas dicker für bessere Sichtbarkeit */
   background-color: #e0d8cc;  /* helles Beige passend zum Stil */
   margin: 3rem auto;          /* großer Abstand oben/unten und automatisch zentriert */
