@@ -294,12 +294,6 @@ h1 {
   margin: 8px 0;
 }
 
-.keule {
-  width: 20px;
-  height: auto;
-  margin: 0 2px;
-}
-
 .rating-line {
   display: flex;
   align-items: center;         /* zentriert Text und Icons vertikal */
