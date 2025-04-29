@@ -240,7 +240,7 @@ h1 {
   transform: translateY(-5px);
 }
 
-.review-card img {
+.review-card > img {
   width: 100%;
   height: auto;
   display: block;
@@ -317,7 +317,7 @@ h1 {
   gap: 4px;
 }
 .keule {
-  width: 10px;           /* statt 20px oder mehr */
+  width: 20px !important;;          
   height: auto;
   margin-left: 4px;
   vertical-align: middle;
