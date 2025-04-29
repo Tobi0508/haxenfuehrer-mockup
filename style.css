@@ -302,10 +302,10 @@ h1 {
 
 .rating-line {
   display: flex;
-  align-items: center;
-  justify-content: flex-start;
+  align-items: center;         /* zentriert Text und Icons vertikal */
+  justify-content: flex-start; /* Text & Icons linksbündig */
   margin-bottom: 0.75rem;
-  gap: 4px;
+  gap: 6px;                    /* Abstand zwischen Label und Icons */
 }
 .review-content .rating-line {
   justify-content: center; /* zentriert innerhalb der Karte */
@@ -323,10 +323,12 @@ h1 {
   gap: 4px;
 }
 .keule {
-  width: 16px;
+  width: 16px;           /* statt 20px oder mehr */
   height: auto;
   margin-left: 4px;
   vertical-align: middle;
+  position: relative;
+  top: 1px;
 }
 
 
