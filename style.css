@@ -300,10 +300,24 @@ h1 {
   margin: 0 2px;
 }
 
+.rating-line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.75rem;
+  flex-wrap: wrap;
+}
+
 .rating-label {
-  font-size: 0.9rem;
+  font-size: 0.95rem;
+  margin-right: 0.5rem;
   color: #444;
-  margin-bottom: 16px;
+  font-family: 'Outfit', sans-serif;
+}
+
+.keulen-icons {
+  display: flex;
+  gap: 3px;
 }
 /* =====================================
    Universelle Trennlinie / Divider
