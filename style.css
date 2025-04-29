@@ -303,22 +303,30 @@ h1 {
 .rating-line {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: flex-start;
+  gap: 0.5rem;
   margin-bottom: 0.75rem;
-  flex-wrap: wrap;
 }
-
+.review-content .rating-line {
+  justify-content: center; /* zentriert innerhalb der Karte */
+  flex-wrap: nowrap;
+}
 .rating-label {
-  font-size: 0.95rem;
-  margin-right: 0.5rem;
-  color: #444;
-  font-family: 'Outfit', sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #2e2a26;
+  font-family: 'Barlow Condensed', sans-serif;
+  white-space: nowrap;
 }
-
 .keulen-icons {
   display: flex;
-  gap: 3px;
+  gap: 4px;
 }
+.keule {
+  width: 18px;
+  height: auto;
+}
+
 /* =====================================
    Universelle Trennlinie / Divider
 ===================================== */
