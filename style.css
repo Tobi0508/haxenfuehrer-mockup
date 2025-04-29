@@ -323,7 +323,7 @@ h1 {
   gap: 4px;
 }
 .keule {
-  width: 16px;           /* statt 20px oder mehr */
+  width: 10px;           /* statt 20px oder mehr */
   height: auto;
   margin-left: 4px;
   vertical-align: middle;
