@@ -305,17 +305,18 @@ h1 {
 }
 .review-badge {
   position: absolute;
-  top: 12px;
-  left: -8px;
+  top: 10px;
+  left: -6px;
   background: #e46927;
   color: white;
-  font-size: 0.75rem;
+  font-size: 0.65rem;
   font-weight: 700;
   text-transform: uppercase;
-  padding: 6px 10px;
-  border-radius: 0 6px 6px 0;
-  box-shadow: 0 2px 6px rgba(0,0,0,0.15);
+  padding: 4px 10px;
+  border-radius: 0 12px 12px 0;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.12);
   font-family: 'Barlow Condensed', sans-serif;
+  letter-spacing: 0.05em;
 }
 
 .rating {
