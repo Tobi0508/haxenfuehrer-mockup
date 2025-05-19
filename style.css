@@ -340,8 +340,14 @@ h1 {
   vertical-align: middle;
   position: relative;
   top: 1px;
+  margin: 0 2px;
+  transition: transform 0.2s ease, filter 0.2s ease;
 }
 
+.keule:hover {
+  transform: scale(1.2);
+  filter: drop-shadow(0 0 2px #d89d5b);
+}
 
 /* =====================================
    Universelle Trennlinie / Divider
