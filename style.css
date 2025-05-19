@@ -360,3 +360,23 @@ footer {
   font-size: 0.9rem;
   color: #777;
 }
+
+@media (max-width: 768px) {
+  .review-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .review-card {
+    width: 90%;
+  }
+
+  .rating-line {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .keulen-icons {
+    margin-top: 0.3rem;
+  }
+}
