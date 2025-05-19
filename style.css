@@ -307,10 +307,8 @@ h1 {
   position: absolute;
   top: 10px;
   left: -6px;
-  /*background: #e46927; */
-  /*color: white; */
-  background: #d4af37; /* Goldgelb */
-  color: #2e2a26;
+  background: #e46927;
+  color: white;
   font-size: 0.65rem;
   font-weight: 700;
   text-transform: uppercase;
