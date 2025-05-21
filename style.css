@@ -364,7 +364,13 @@ h1 {
   transform: scale(1.2);
   filter: drop-shadow(0 0 2px #d89d5b);
 }
-
+.top-haxe-badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  width: 90px;
+  z-index: 3;
+}
 /* =====================================
    Universelle Trennlinie / Divider
 ===================================== */
